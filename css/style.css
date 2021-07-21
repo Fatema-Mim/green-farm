@@ -70,5 +70,9 @@ button a{
 }
 /* data and technology */
 .bg-data{
-    background-color: rgba(192, 192, 192, 0.356);
+    background-color: #f1f1f1;
+}
+/* footer */
+footer{
+    background-color: rgb(16, 201, 96) ;
 }
