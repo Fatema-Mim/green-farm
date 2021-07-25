@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 ul,li{
     list-style: none;
@@ -12,33 +13,96 @@ a{
 h1,h2,h3,h4,h5,h6,p{
     margin: 0;
 }
+h2{
+    padding: 15px 0;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: .5px;
+
+}
+p{
+    font-size: 18px;
+
+}
+.section_padding{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.section-gap{
+    margin-top: 94px;
+}
+.text-bottom{
+    margin-bottom: 20px;
+}
+
+
 /* banner part */
+
 #banner-part .banner{
+    background: url(../images/farm-1.jpg) no-repeat center;
+    background-size: cover;
+}
+#banner-part .banner_2{
+    background: url(../images/we.jpg) no-repeat center;
+    background-size: cover;
+}
+#banner-part .banner_3{
     background: url(../images/farm-1.jpg) no-repeat center;
     background-size: cover;
 }
 #banner-part .banner .overlay{
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0,0.4);
+    background: rgba(0, 0, 0, .26);
     color: #fff;
-    padding: 100px;
+    padding: 100px 0;
+
 }
-#banner-part .banner .overlay .banner-width{
-    width: 25vw;
+#banner-part .banner .overlay .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
-#banner-part .banner .overlay h1{
-    text-transform: uppercase;
-    font-size: 40px;
-    font-family: 'Poppins', sans-serif;
+#banner-part .banner .overlay .container span{
+    display: block;
+}
+
+#banner-part .banner .overlay h2{
+    font-size: 50px;
     font-weight: 600;
-    letter-spacing: 2px;
+    margin-bottom: 20px;
+    line-height: 65px;
+    letter-spacing: 1.5px;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+
 }
-#banner-part .banner .overlay button{
-    margin-top: 10px;
-    transition: .4s;
-}
-button a{
+    #banner-part .slick-dots{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        padding-left: 0 !important;
+    }
+    #banner-part .slick-dots li{
+        display: inline-block;
+    }
+    #banner-part .slick-dots li button{
+        
+        font-size: 0;
+        background: transparent;
+        border: 2px solid  #fff;
+        border-radius: 50%;
+        margin: 0 10px;
+        width: 10px;
+        height: 10px;
+    }
+    #banner-part .slick-dots .slick-active button{
+        background:#fff ;
+    }
+
+a{
     color: #fff;
     transition: .4s;
 }
@@ -48,30 +112,104 @@ button a{
     padding: 10px 20px;
     border-radius: 8px;
 }
-#banner-part .banner .overlay button:hover{
+#banner-part .banner .overlay a:hover{
     background-color: #fff;
-}
-#banner-part .banner .overlay button:hover a{
     color: rgb(16, 201, 96);
 }
 /* who we are part */
-.title-text{
-    color: rgb(16, 201, 96);
+.title{
+    display: flex;
+    justify-content: center;
+}
+.text-width{
+    width: 55%;
+}
+.card_part{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.card-item{
+    width: 24%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+.card-image{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card-image img{
+    width: 100%;
+}
+.card-text{
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+}
+.card-text h3{
+    color:rgb(16, 201, 96);
+    margin-bottom: 5px;
+}
+.card-bottom{
+    margin-bottom: 40px;
 }
 /* Finance for farm start  */
+a:hover{
+    color: white;
+}
 .text-padding{
     padding-right: 150px;
 }
-.text-bottom{
-    margin-bottom: 10px;
+.farm-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
 }
-.image-border{
+.farm-image img{
     border-radius: 8px;
 }
 /* data and technology */
 .bg-data{
     background-color: #f1f1f1;
 }
+/* improving part start */
+.improve{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.improve-item img{
+    width: 100%;
+    border-radius: 10px;
+}
+.improve-item_1{
+    width: 35%;
+    position: relative;
+    left:70px;
+    top: 60px;
+}
+.improve-item_2{
+    width: 38%;
+    position: relative;
+    left:230px;
+    z-index: 1;
+}
+.improve-item_3{
+    width: 35%;
+    position: relative;
+    left: 70px;
+    bottom: 60px;
+}
+/* improving part end */
+/* impact stories start */
+    .card-item_2{
+        width: 30%;
+        background: #ffffff;
+    }
+/* impact stories end */
 /* footer */
 footer{
     background-color: rgb(16, 201, 96) ;
