@@ -104,5 +104,14 @@
     width: 266px;
     height: 150px;
     }
+    /* ===== about us start ====== */
+    #our-culture h2{
+        font-size: 40px;
+        padding-bottom: 30px;
+    }
+    #our-culture h2 .culture-and{
+        display: block;
+    }
+    /* ===== about us end ====== */
     
 }
