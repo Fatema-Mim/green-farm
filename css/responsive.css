@@ -1,19 +1,24 @@
-@media (min-width:320px) and (max-width:575px){
-    /* common part */
-    main{
-        overflow: hidden;
+
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (min-width:320px) and (max-width:575.98px){
+    .mid-btn{
+        display: flex;
+        justify-content: center;
+        font-size: 18px;
+        padding: 10px 25px;
+        align-items: center;
+
+
     }
-    .section-gap {
-    margin-top: 45px;
-    }
+    /* banner */
     #banner-part .banner .overlay {
-    padding: 40px 0;
+        padding: 80px 0;
     }
     #banner-part .banner .overlay h2{
-    font-size: 35px;
-    font-weight: 600;
-    line-height: 50px;
-    letter-spacing: 0.5px;
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 50px;
+        letter-spacing: 0.5px;
     }
     #banner-part .banner .overlay a{
         margin-bottom: 10px;
@@ -40,78 +45,223 @@
     #banner-part .slick-dots .slick-active button{
         background:#fff ;
     }
-    .text-width p{
-        font-size: 12px;
-        line-height: 23px;
+    /* who we are */
+    .landing-title{
+        font-size: 38px;
     }
-    h2{
-        font-size: 35px;
+    .landing-content p{
+        font-size: 16px;
     }
-    .text-width{
-        width: 85% !important;
+    /* finance */
+    .finance-header{
+        font-size: 32px;
+        line-height:40px;
+        white-space: 3px;
     }
-    .card_part {
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    /* data & tecnology */
+    .tecnology-title{
+        font-size: 37px;
+        line-height:32px;
+        letter-spacing:1.5px;
     }
-    .card-item {
-    width: 90%;
-    margin-bottom: 22px;
-    }
-    .text-padding{
-        padding-right: 10px;
-        text-align: center;
-    }
-    .text-padding h2{
-        font-size: 27px;
-    }
-    .text-padding .btn-farm{
-        margin-bottom: 20px;
-    }
-    .tcenology h2{
-        font-size: 23px;
-    }
-    .tcenology p{
+    .tecnology-content{
         font-size: 14px;
-        line-height: 25px;
     }
-    .tcenology .text-bottom{
-        margin-bottom: 12px;
-    }
-    .improve-item_1 {
-    width: 40%;
-    left: 33px;
-    top: 20px;
-    }
-    .improve-item_2 {
-    width: 48%;
-    left: 125px;
-    }
-    .improve-item_3 {
-    width: 40%;
-    left: 33px;
-    bottom: 40px;
-    }
-    .improve-title h2{
-        font-size: 28px;
-    }
-    .stories-title h2{
-        font-size: 33px;
-    }
-    .card-vedio iframe {
-    width: 266px;
-    height: 150px;
-    }
-    /* ===== about us start ====== */
-    #our-culture h2{
-        font-size: 40px;
-        padding-bottom: 30px;
-    }
-    #our-culture h2 .culture-and{
+    .responsive-and{
         display: block;
     }
-    /* ===== about us end ====== */
+
+    /* improve part */
+    .improve-item_1{
+        left: 45px;
+        top: 21px;
+    }
+    .improve-item_2{
+        left: 127px;
+    }
+    .improve-item_3{
+        left: 45px;
+        bottom: 57px;
+    }
+    .improve-title h2{
+        font-size: 33px;
+    }
+    .improve-title p{
+        font-size: 15px;
+    }
+    /* impact stories */
+    .impact-title span{
+        font-size: 35px;
+    }
+    .card-vedio iframe{
+        width: 264px;
+    }
+    .card-text h3{
+        font-size: 24px;
+        padding-bottom:0;
+    }
+    .card-text p{
+        padding-bottom: 0;
+        font-size: 14.7px;
+    }
+    /* ======================================================= About us ================================= */
+    /* our culture */
+    .culture-and{
+        display: block;
+    }
+    #our-culture .landing-title {
+        line-height: 34px;
+    }
+    /* =============================================== fund =========================================== */
+    /* networking part   */
+    #networking .circle{
+        height: 145px;
+        width: 145px;
+    }
+    #nerworking .circle p{
+        font-size: 30px;
+    }
+    #networking .networking_text p{
+        margin-bottom: 0;
+    }
+    /* impact stories */
+    #impact-stories .impact-stories-item h2{
+        font-size: 43px;
+    }
+    #impact-stories .impact-stories-item h5{
+        font-size: 26px;
+    }
+    /* ====================================== frem =============================== */
     
+    .farm-text{
+        padding: 0;
+    }
+    .farm-text .farm-text_1{
+        font-size: 28px;
+    }
+    .farm-text .farm-text_2{
+        font-size: 38px;
+    }
+    .farm-text .farm-text_3{
+        font-size: 20px;
+    }
+    .price_tag{
+        transform: translate(29.5%,-130%)
+    }
+    /* ====================================== contact us======================== */
+    .contact-banner{
+        padding-top: 46px;
+        padding-bottom: 35px;
+    }
+    #banner-part .banner .overlay .contact-banner h2{
+        padding: 0;
+        font-size: 29px;
+        line-height: 47px;
+    }
+    .contact-banner p{
+        font-size: 19px;
+    }
+
 }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /* banner part */
+    #banner-part .banner .overlay {
+        padding: 102px 0;
+    }
+    #banner-part .banner .overlay h2{
+        font-size: 45px;
+        line-height: 56px;
+    }
+
+    /* finance */
+    .finance-content{
+        text-align: justify ;
+    }
+    .finance-image img{
+        width: 100%;
+    }
+
+    /* data and tecnology */
+    .tecnology-content{
+        font-size: 16px;
+    }
+    /* improve part */
+    .improve-title h2{
+        font-size: 42px;
+    }
+    /* impact stories */
+    .card-vedio iframe{
+        width: 246px;
+        height: 183px;
+    }
+    /* ====================== fund ================================ */
+    /* networking */
+    #networking .networking_text p{
+        margin-bottom: 0;
+    }
+    /* ==========farm==================================== */
+    .price_tag{
+        transform: translate(24.5%,-130%)
+    }
+    /* ===============================contact us ====================================== */
+    /* cantact banner */
+    .contact-banner{
+        padding: 60px 0;
+    }
+    #banner-part .banner .overlay .contact-banner h2{
+        font-size: 32px;
+        padding: 0;
+    }
+    .contact-banner p{
+        font-size: 14px;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    
+    /* finance */
+    .finance-header{
+        font-size: 50px;
+    }
+    .finance-content{
+        font-size: 17.2px;
+    }
+    .finance-return{
+        font-size: 20px;
+        word-spacing: 2.2px;
+    }
+    .finance-image img{
+        width: 100%;
+    }
+    /* impact stories */
+    .card-vedio iframe{
+        width: 336px;
+        height: 206px;
+    }
+    /* ================== countact us ===================== */
+    .contact-banner{
+        padding: 45px 0;
+    }
+    #banner-part .banner .overlay .contact-banner h2{
+        font-size: 45px;
+        padding: 0;
+    }
+    /* ========================= farm =========================== */
+    .price_tag {
+        transform: translate(44.7%,-130%);
+    }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* impacr stories */
+    .card-vedio iframe {
+        width: 296px;
+    }
+  }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }

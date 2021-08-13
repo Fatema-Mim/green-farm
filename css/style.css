@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 ul,li{
     list-style: none;
@@ -13,33 +13,22 @@ a{
 h1,h2,h3,h4,h5,h6,p{
     margin: 0;
 }
-h2{
-    padding: 15px 0;
-    font-size: 40px;
-    font-weight: 600;
-    letter-spacing: .5px;
 
+.btn-farm-2{
+    padding: 10px 30px;
+    background: #fff;
+    color: rgb(16, 201, 96) ;
+    border-radius: 10px;
+    font-size: 22px;
+    border: 1px solid gray;
 }
-p{
-    font-size: 16px;
 
-}
-.section_padding{
-    padding-top: 20px;
-    padding-bottom: 30px;
-}
-.section-gap{
-    margin-top: 94px;
-}
-.text-bottom{
-    margin-bottom: 20px;
-}
 
 
 /* banner part */
 
 #banner-part .banner{
-    background: url(../images/farm-1.jpg) no-repeat center;
+    background: url(../images/we-3.jpg) no-repeat center;
     background-size: cover;
 }
 #banner-part .banner_2{
@@ -55,52 +44,51 @@ p{
     height: 100%;
     background: rgba(0, 0, 0, .26);
     color: #fff;
-    padding: 100px 0;
+    padding: 125px 0;
 
 }
-#banner-part .banner .overlay .container{
+.banner-center{
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
-#banner-part .banner .overlay .container span{
+.banner-center span{
     display: block;
 }
 
-#banner-part .banner .overlay h2{
-    font-size: 50px;
-    font-weight: 600;
-    margin-bottom: 20px;
-    line-height: 65px;
-    letter-spacing: 1.5px;
+.index-banner h2{
+    font-size: 55px;
+    font-weight: 700;
+    letter-spacing: 2.3px;
+    line-height: 70px;
     margin-bottom: 50px;
     text-transform: capitalize;
 
 }
-    #banner-part .slick-dots{
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        padding-left: 0 !important;
-    }
-    #banner-part .slick-dots li{
-        display: inline-block;
-    }
-    #banner-part .slick-dots li button{
-        
-        font-size: 0;
-        background: transparent;
-        border: 2px solid  #fff;
-        border-radius: 50%;
-        margin: 0 10px;
-        width: 10px;
-        height: 10px;
-    }
-    #banner-part .slick-dots .slick-active button{
-        background:#fff ;
-    }
+#banner-part .slick-dots{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-left: 0 !important;
+}
+#banner-part .slick-dots li{
+    display: inline-block;
+}
+#banner-part .slick-dots li button{
+    
+    font-size: 0;
+    background: transparent;
+    border: 2px solid  #fff;
+    border-radius: 50%;
+    margin: 0 10px;
+    width: 10px;
+    height: 10px;
+}
+#banner-part .slick-dots .slick-active button{
+    background:#fff ;
+}
 
 a{
     color: #fff;
@@ -108,7 +96,7 @@ a{
 }
 .btn-farm{
     border: none;
-    background-color: rgb(16, 201, 96);
+    background-color: #2BBE65;
     padding: 10px 20px;
     border-radius: 8px;
 }
@@ -117,20 +105,24 @@ a{
     color: rgb(16, 201, 96);
 }
 /* who we are part */
-.title{
-    display: flex;
-    justify-content: center;
+.landing-title{
+    font-size: 44px;
+    line-height: 49px;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1;
+    text-transform: capitalize;
+    font-weight: 700;
 }
-.text-width{
-    width: 55%;
+.landing-content p{
+    font-size: 20px;
+    padding-top: 16px;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1;
 }
-.card_part{
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-}
+
 .card-item{
-    width: 24%;
     border-radius: 10px;
     box-shadow: 0 3px 6px #00000029;
 }
@@ -156,28 +148,42 @@ a{
 .card-text p{
     padding-bottom: 30px;
 }
-.card-bottom{
-    margin-bottom: 40px;
-}
 /* Finance for farm start  */
+.finance-header {
+    font-size: 54px;
+    line-height: 59px;
+    color: #2A2A2A;
+    font-weight: 600;
+    word-spacing: 6px;
+    letter-spacing: .7px;
+}
+.finance-content{
+    font-size: 16px;
+    line-height: 30px;
+    color: #707070;
+}
+.finance-return{
+    font-size: 18px;
+    letter-spacing: 0.3px;
+    font-weight: bold;
+    color: #2A2A2A;
+}
 a:hover{
     color: white;
 }
-.text-padding{
-    padding-right: 150px;
-}
-.farm-image{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
-}
-.farm-image img{
+.finance-image img{
     border-radius: 8px;
 }
 /* data and technology */
 .bg-data{
     background-color: #f1f1f1;
+}
+.tecnology-title{
+    font-size: 45px;
+    font-weight: 600;
+}
+.tecnology-content{
+    font-size: 19px;
 }
 /* improving part start */
 .improve{
@@ -207,22 +213,37 @@ a:hover{
     left: 70px;
     bottom: 60px;
 }
+.improve-title h2{
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: .3px;
+    word-spacing: 0.8px;
+}
 /* improving part end */
+/* feature part start */
+.feature-title span{
+    font-size: 40px;
+    letter-spacing: 0.64px;
+    font-weight: bold;
+}
+
+
+/* feature part end */
 /* impact stories start */
     .card-item_2{
         border-radius: 0;
-        width: 30%;
         background: #ffffff;
     }
     .card_text_2{
         padding: 12px;
         text-align: left;
     }
-
-    .card-vedio iframe{
-        width: 334px;
-        height: 200px;
+    .card-vedio iframe {
+    width: 324px;
+    border: 0;
+    height: 200px;
     }
+
 /* impact stories end */
 /* scroll-button */
 #scrolltop{
@@ -244,17 +265,29 @@ a:hover{
 footer{
     background-color:#fff ;
 }
-#footer{
-    padding: 60px 0;
+.footer{
+    box-shadow: 0 -3px 12px #00000014;
 }
-#footer h4{
-    font-weight: 600;
-    text-align: center;
-    color: rgb(16,201,96);
+.footer-header{
+    font-size: 23px;
+    color: #2BBE65;
+    font-weight: bold;
 }
-/* ========= about us start========= */
+.footer-item a{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    color: #000;
+}
+.social-media{
+    display: flex;
+}
+.social-media a i{
+    color: #2BBE65;
+    font-size: 22px;
+}
+/* ======================================= about us start====================================== */
 #our-culture{
-    padding: 50px 30px;
     background: #f1f1f1;
 }
 #our-culture .cultur-item{
@@ -294,3 +327,491 @@ footer{
     background: #fff;
     color: rgb(16,201,96);
 }
+/* ==============================fund part =================================== */
+/* fund banner */
+.fund-banner{
+    padding-top: 48px;
+    padding-bottom: 30px;
+}
+.fund-banner h2{
+    margin-bottom: 0px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 59px;
+}
+.fund-banner p{
+    font-size: 24px;
+    font-weight: 300;
+    padding-bottom: 50px;
+}
+/* what we do start [page_one]*/
+
+.card-item_3{
+    border: 2px dashed #00000029;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px #00000029;
+    padding: 10px 13px;
+}
+.card-image i{
+    padding: 0 0 20px;
+    font-size: 80px;
+    color:rgb(16,201,96) ;
+}
+.card-text_3 h3{
+    font-size: 25px;
+    padding: 0 0 20px;
+    font-weight: 600;
+}
+.card-text_3 p{
+    font-size: 17px;
+    padding: 0 0 20px;
+    line-height: 30px;
+    color: gray;
+}
+
+/* networking part start */
+#networking .network-circle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+#networking .circle{
+    height: 220px;
+    width: 220px;
+    border: 3px solid rgb(16, 201, 96);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#networking .circle p{
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(16, 201, 96);
+}
+#networking .circle small{
+    color: rgb(16, 201, 96);
+}
+#networking .networking_text p{
+    margin-bottom: 100px;
+}
+#networking .networking_text_color{
+    color: rgb(16, 201, 96);
+}
+/* wentToHelp start */
+#wentToHelp{
+    background: rgb(16, 201, 96);
+}
+.landing-title .to-help{
+    display: block;
+    color: #fff;
+}
+#wentToHelp .wentToHelp-btn-farm{
+    padding: 10px 32px;
+    background: #fff;
+    color: rgb(16, 201, 96);
+    font-size: 20px;
+    border-radius: 10px;
+}
+/* impact-stories */
+#impact-stories{
+    background: rgba(141, 121, 121, 0.151);
+    
+}
+
+#impact-stories .impact-stories-item h2{
+   font-size: 45px;
+   font-weight: 400;
+}
+#impact-stories .impact-stories-item h5{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+/* ===================================  farm part start ================================ */
+/* banner part */
+
+.farm-text .farm-text_1{
+    font-size: 36px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #000;
+    line-height: 35px;
+}
+.farm-text .farm-text_2{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 500;
+    
+}
+.farm-text .farm-text_3{
+    font-size: 21px;
+    text-transform: capitalize;
+    color: #000;
+    font-weight: 400;
+}
+.farm-text .farm-text_4{
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #000;
+}
+.farm-item-1{
+    padding-top: 10px;
+}
+.farm-item-1 p{
+    padding-bottom: 18px;
+}
+.farm-item-2 p{
+    padding-bottom: 8px;
+}
+.farm-item-2 a{
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    padding: 8px 25px 8px 63px;
+    position: relative;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.farm-item-2 a i{
+    font-size: 35px;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+.farm-item-2 span{
+    display: block;
+}
+.farm-item-2 .on{
+    font-size: 14px;
+    font-weight: 400;
+}
+.farm-item-2 .store{
+    font-size: 18px;
+    font-weight: 600;
+}
+/* banner-bottom */
+ #banner-bottom {
+    transform: translateY(-50%);
+}
+#banner-bottom .container{
+    box-shadow: 0 3px 6px #00000029;
+}
+#banner-bottom .item{
+    background: #fff; 
+    text-align: center; 
+}
+#banner-bottom .item span{
+    color: gray;
+}
+#banner-bottom .banner-bottom-all{
+    border-radius: 20px;
+} 
+
+/* how- work */
+.how-work-title h2{
+    font-weight: 500;
+}
+.how-work-details{
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.how-work-text h5{
+    font-size: 22px;
+    font-weight: 500;
+    padding-bottom: 8px;
+}
+.how-work-text p{
+    padding-bottom: 12px;
+    font-size: 15px;
+    color: gray;
+}
+/* our farm */
+.card-item-4{
+    box-shadow: 0 3px 6px #00000029;
+}
+.card_part_4 img{
+    height: 235px;
+}
+.our-card-title{
+    display: flex;
+    justify-content: space-between;
+}
+.price_tag{
+    transform:translate(37.5%,-135%);
+}
+.price_tag span{
+    padding:10px 20px ;
+    background: rgb(16, 201, 96);
+    color: #fff;
+}
+.our-card-title i {
+    height: 20px;
+    width: 20px;
+    border: 1px solid gray;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+    font-size: 12px;
+    color: gray;
+}
+.card-item-4 .location{
+    font-size: 15px;
+    color: gray ;
+}
+.card-item-4 .location i{
+    margin-right: 6px;
+}
+.card-text-4{
+    padding: 0 20px 15px;
+}
+.our-button{
+    text-align: center;
+}
+.card-text-4 p{
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+/* impact stories */
+#farm-impact-stories{
+    background: #f0fbf4;
+}
+
+
+/* =========== Contact us =============== */
+.contact-banner{
+    padding-top:65px;
+    padding-bottom: 40px;
+}
+.contact-banner h2{
+    text-transform: uppercase;
+    padding: 0 63px 25px;
+    font-size: 50px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    font-weight: 700;
+}
+.contact-banner p{
+    font-size: 19px;
+    font-weight: 300;
+    letter-spacing: 0.6px
+}
+/* who do we work with */
+.work-with{
+    display: flex;
+    justify-content: flex-end;
+}
+.work-with-item ul li{
+    font-size: 20px;
+}
+.work-with-item ul li i{
+    color:rgb(16, 201, 96) ;
+}
+/* how we work */
+.we-work{
+    background: #f1f1f1;
+}
+
+/* why work with us */
+#work-with-us{
+    background: rgba(112, 183, 211, 0.055);
+}
+.card-part-5{
+    margin-top: 20px;
+}
+.card-item_5{
+    box-shadow: 0 3px 6px #00000029;
+    padding: 10px 13px;
+}
+/* lets talk */
+.contact-input input{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+}
+.contact-input textarea{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+}
+
+/* =========Solution Part ============ */
+
+.solution-banner{
+    padding-top:50px;
+    padding-bottom: 20px;
+}
+.solution-banner .heading{
+    padding-bottom: 40px;
+}
+.solution-banner .heading h2{
+    font-size: 58px;
+    line-height: 65px;
+    font-weight: 700;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+}
+.solution-banner .heading h2 span{
+    display: inline-block;
+    text-transform: none;
+}
+#solution_text p{
+    font-size: 18px;
+    text-align: center;
+    line-height: 31px;
+}
+
+/* ============= supply chain ============ */
+/* available-product start */
+.available-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.available-item{
+    width: 32%;
+    border: 1px solid #C8C8C880;
+    padding: 10px;
+    display: flex;
+    flex-flow: row;
+    margin-top: 35px;
+}
+.available-img{
+    height: 100px;
+    width: 160px;
+}
+.available-info .product-title{
+    color: #2A2A2A;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 30px;
+}
+.available-info .product-price{
+    font-size: 16px;
+    line-height: 26px;
+}
+.available-info .product-price span{
+    color: #2A2A2A;
+    font-weight: bold;
+}
+.product-quantity{
+    margin-top: 10px;
+    padding: 7px 20px;
+    text-align: center;
+    background: #2BBE65;
+    color: #fff;
+    border-radius: 3px;
+}
+
+/* available-product end */
+/* order-Now part start */
+.order-form{
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .order-input{
+    background: #f1f1f1;
+    padding: 10px;
+    box-shadow: 0 3px 6px #00000029;
+} */
+.order-input input{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+}
+.order-input textarea{
+    margin-left: 3px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    background: #f1f1f1;
+}
+.order-input{
+    width: 69%;
+}
+.submit-button{
+    margin: 40px 15px;
+    background: #2BBE65;
+    border-radius: 6px;
+    padding: 10px 0;
+}
+.submit-button button {
+    font-size: 18px;
+    color: #fff;
+}
+/* order-Now part end */
+/* how model work start */
+#how-model-work{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.how-model-work-item{
+    margin-top: 40px;
+}
+.model-work-cell{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+.model-work-icon {
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    background-color: #F0FBF4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.model-work-icon i{
+    font-size: 26px;
+    color: #2BBE65;
+}
+.model-work-info{
+    padding-left: 30px;
+}
+.model-work-info .model-work-title{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #2A2A2A;
+}
+.model-work-info .model-work-subtitle{
+    width: 300px;
+    font-size: 18px;
+    padding-top: 25px;
+    line-height: 23px;
+    color: #2A2A2A;
+    opacity: 0.8;
+}
+
+/* how model work end */
+
+/* our client start */
+.client{
+    padding: 20px 0 40px 0;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.client .client-logo{
+    width: 15%;
+    min-height: 145px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+/* our client end */
