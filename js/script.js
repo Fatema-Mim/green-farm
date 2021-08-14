@@ -72,3 +72,6 @@ $(document).ready(function(){
         },5000);
     })
 });
+$( "#navbarSupportedContent ul li a").filter(function(){
+    return this.href == location.href.replace(/#.*/,"");
+}).parents("li").addClass("active");

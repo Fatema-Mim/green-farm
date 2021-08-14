@@ -22,21 +22,24 @@ h1,h2,h3,h4,h5,h6,p{
     font-size: 22px;
     border: 1px solid gray;
 }
-
+#navbarSupportedContent ul li.active a{
+    color: #fff;
+   
+}
 
 
 /* banner part */
 
 #banner-part .banner{
-    background: url(../images/we-3.jpg) no-repeat center;
+    background: url(../images/banner/cFarmerbanner-4.jpg) no-repeat center;
     background-size: cover;
 }
 #banner-part .banner_2{
-    background: url(../images/we.jpg) no-repeat center;
+    background: url(../images/banner/cFarmerBanner-2.jpg) no-repeat center;
     background-size: cover;
 }
 #banner-part .banner_3{
-    background: url(../images/farm-1.jpg) no-repeat center;
+    background: url(../images/banner/cFarmerBanner-6.jpg) no-repeat center;
     background-size: cover;
 }
 #banner-part .banner .overlay{
@@ -132,10 +135,7 @@ a{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-.card-image img{
-    height: 100px;
-    width: 100px;
-}
+
 .card-text{
     padding: 12px;
     text-align: center;
@@ -238,10 +238,18 @@ a:hover{
         padding: 12px;
         text-align: left;
     }
+    .card_text_2 h3{
+        color: #000000;
+        font-size: 18px;
+        font-weight: 700;
+    }
     .card-vedio iframe {
     width: 324px;
     border: 0;
     height: 200px;
+    }
+    .see-more{
+        color: rgb(16, 201, 96);
     }
 
 /* impact stories end */
@@ -543,7 +551,7 @@ footer{
     justify-content: space-between;
 }
 .price_tag{
-    transform:translate(37.5%,-135%);
+    transform: translate(42.5%,-129%);
 }
 .price_tag span{
     padding:10px 20px ;
@@ -580,6 +588,9 @@ footer{
 /* impact stories */
 #farm-impact-stories{
     background: #f0fbf4;
+}
+.stories-vedio iframe{
+    height: 200px;
 }
 
 
